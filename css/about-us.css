@@ -1,0 +1,362 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.iphone-14-about-us-child {
+  position: absolute;
+  top: 1010px;
+  left: 0;
+  width: 390px;
+  height: 227px;
+}
+.twitter-icon2,
+.youtube-icon2 {
+  height: 2.48%;
+  width: 8.87%;
+  top: 93.13%;
+  bottom: 4.39%;
+  object-fit: cover;
+}
+.youtube-icon2 {
+  position: absolute;
+  right: 54.97%;
+  left: 36.15%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.twitter-icon2 {
+  right: 65.34%;
+  left: 25.79%;
+}
+.instagram-icon2,
+.twitter-icon2,
+.vector-icon16,
+.vector-icon17,
+.vector-icon18 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.instagram-icon2 {
+  height: 2.48%;
+  width: 8.87%;
+  top: 93.13%;
+  right: 75.7%;
+  bottom: 4.39%;
+  left: 15.43%;
+  object-fit: cover;
+}
+.vector-icon16,
+.vector-icon17,
+.vector-icon18 {
+  height: 6.39%;
+  width: 31.03%;
+  top: 58.53%;
+  right: 66.41%;
+  bottom: 35.08%;
+  left: 2.56%;
+}
+.vector-icon17,
+.vector-icon18 {
+  height: 1.46%;
+  width: 3.85%;
+  top: 61.44%;
+  right: 71.79%;
+  bottom: 37.11%;
+  left: 24.36%;
+  opacity: 0.9;
+}
+.vector-icon18 {
+  top: 62.41%;
+  right: 88.46%;
+  bottom: 36.14%;
+  left: 7.69%;
+}
+.iphone-14-about-us-item {
+  position: absolute;
+  top: 233px;
+  left: 21px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-brown-100);
+  width: 348px;
+  height: 501px;
+}
+.iphone-14-about-us-inner {
+  position: absolute;
+  top: 244px;
+  left: 27px;
+  border-radius: var(--br-xs);
+  width: 336px;
+  height: 220px;
+}
+.about-us,
+.connecting-film-lovers {
+  position: absolute;
+  font-family: var(--font-poppins);
+}
+.about-us {
+  top: 112px;
+  left: 91px;
+  font-size: 45px;
+}
+.connecting-film-lovers {
+  top: 166px;
+  left: 86px;
+  font-size: var(--h3-size);
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.85);
+}
+.square-eyes-is {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.square-eyes-is-container {
+  position: absolute;
+  top: 260px;
+  left: 47px;
+  text-align: left;
+  display: inline-block;
+  width: 299px;
+  height: 152px;
+}
+.iphone-14-about-us-child1 {
+  position: absolute;
+  top: 651px;
+  left: 226px;
+  width: 154px;
+  height: 154px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.iphone-14-about-us-child2 {
+  position: absolute;
+  top: 492px;
+  left: 27px;
+  border-radius: var(--br-3xs);
+  width: 241px;
+  height: 165.18px;
+}
+.eirik-n-veskje {
+  margin: 0;
+}
+.at-square-eyes-container {
+  position: absolute;
+  top: 503px;
+  left: 42px;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 210px;
+  height: 90px;
+}
+.rectangle-div {
+  position: absolute;
+  top: 882px;
+  left: calc(50% - 174px);
+  border-radius: var(--br-2xl);
+  background: linear-gradient(-82.13deg, rgba(255, 255, 255, 0.85), #a00d31);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 345px;
+  height: 213px;
+}
+.are-you-ready {
+  position: absolute;
+  top: 900px;
+  left: calc(50% - 98px);
+  font-size: var(--sub-heading-size);
+  letter-spacing: 0.1em;
+  line-height: 27.5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--color-black);
+}
+.become-part-of {
+  position: absolute;
+  top: 1010px;
+  left: calc(50% - 152px);
+  font-size: 22px;
+  line-height: 31px;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 303px;
+  height: 59px;
+}
+.component-18-child {
+  cursor: pointer;
+  border: 1px solid var(--color-brown-100);
+  padding: 0;
+  background-color: var(--color-brown-100);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-2xs);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.56);
+  box-sizing: border-box;
+}
+.signup-now {
+  position: absolute;
+  top: 21.52%;
+  left: 13.41%;
+  font-size: var(--font-size-2xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--ffffff-white);
+  text-align: center;
+}
+.component-18 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 947px;
+  left: 115px;
+  width: 160px;
+  height: 44px;
+}
+.vector-icon19 {
+  position: absolute;
+  height: 2.18%;
+  width: 8.46%;
+  top: 93.21%;
+  right: 86.15%;
+  bottom: 4.61%;
+  left: 5.38%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iphone-14-about-us-child3,
+.iphone-14-about-us-child4 {
+  position: absolute;
+  top: 1081px;
+  left: 198px;
+  width: 192px;
+  height: 192px;
+}
+.iphone-14-about-us-child4 {
+  top: 1077px;
+  width: 54px;
+  height: 54px;
+}
+.component-19-child3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.home-icon3,
+.menu-alt-43,
+.menu-icon3,
+.vector-icon20,
+.vector-icon21 {
+  position: absolute;
+  height: 38.46%;
+  width: 5.13%;
+  top: 26.92%;
+  right: 14.36%;
+  bottom: 34.62%;
+  left: 80.51%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.home-icon3,
+.menu-alt-43,
+.menu-icon3,
+.vector-icon21 {
+  height: 49.45%;
+  width: 6.59%;
+  top: 19.23%;
+  right: 3.59%;
+  bottom: 31.32%;
+  left: 89.82%;
+}
+.home-icon3,
+.menu-alt-43,
+.vector-icon21 {
+  height: 32.69%;
+  width: 4.36%;
+  top: 26.92%;
+  right: 4.62%;
+  bottom: 40.38%;
+  left: 91.03%;
+}
+.home-icon3,
+.vector-icon21 {
+  height: 44.23%;
+  width: 6.15%;
+  top: 25%;
+  right: 23.85%;
+  bottom: 30.77%;
+  left: 70%;
+}
+.home-icon3 {
+  height: 61.54%;
+  width: 8.21%;
+  top: 13.46%;
+  right: 88.72%;
+  bottom: 25%;
+  left: 3.08%;
+}
+.component-19-child4 {
+  border: 0;
+  background-color: var(--color-gray-1300);
+  position: absolute;
+  height: 61.54%;
+  width: 49.49%;
+  top: 15.38%;
+  right: 34.62%;
+  bottom: 23.08%;
+  left: 15.9%;
+  border-radius: var(--br-xl);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+}
+.search-for-movies3,
+.search-icon3 {
+  position: absolute;
+  top: 28.85%;
+  left: 17.95%;
+}
+.search-icon3 {
+  height: 30.77%;
+  width: 4.1%;
+  right: 36.92%;
+  bottom: 40.38%;
+  left: 58.97%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.component-193 {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 390px;
+  height: 52px;
+  text-align: left;
+  color: var(--color-gray-1000);
+}
+.iphone-14-about-us {
+  position: relative;
+  background-color: var(--color-gray-1700);
+  width: 100%;
+  height: 1237px;
+  overflow-y: auto;
+  text-align: center;
+  font-size: var(--btn-size);
+  color: var(--ffffff-white);
+  font-family: var(--sub-heading);
+}

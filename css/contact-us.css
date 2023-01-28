@@ -1,0 +1,457 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.square-eyes-body,
+.eyes-right,
+.eyes-left {
+  position: absolute;
+  height: 7.64%;
+  width: 25.13%;
+  top: 12.61%;
+  right: 66.92%;
+  bottom: 79.75%;
+  left: 7.95%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.eyes-right,
+.eyes-left {
+  height: 0.91%;
+  width: 3.08%;
+  top: 14.51%;
+  right: 70.77%;
+  bottom: 84.58%;
+  left: 26.15%;
+  opacity: 0.9;
+}
+.eyes-left {
+  width: 2.82%;
+  top: 15.14%;
+  right: 83.33%;
+  bottom: 83.95%;
+  left: 13.85%;
+}
+.contact-us-frame {
+  position: absolute;
+  top: 233px;
+  left: 21px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-brown-100);
+  width: 348px;
+  height: 444px;
+}
+.we-are-here {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.just-write-us {
+  margin: 0;
+}
+.we-are-here-container {
+  position: absolute;
+  top: 180px;
+  left: calc(50% - 27px);
+  font-weight: 500;
+  text-align: center;
+}
+.contact-us {
+  position: absolute;
+  top: 112px;
+  left: calc(50% - 49px);
+  font-size: 38px;
+}
+
+.message-box {
+  border: 1px solid var(--ffffff-white);
+  background-color: transparent;
+  position: absolute;
+  top: 450px;
+  left: calc(50% - 162px);
+  box-sizing: border-box;
+  width: 323px;
+  height: 160px;
+}
+.message,
+.write-your-message {
+  position: absolute;
+  line-height: 20px;
+  font-weight: 500;
+}
+.message {
+  top: 420px;
+  left: calc(50% - 162px);
+  font-size: 25px;
+}
+.write-your-message {
+  top: 459px;
+  left: calc(50% - 155px);
+  font-size: var(--font-size-lg);
+}
+.send-message-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.82);
+  position: absolute;
+  top: 619px;
+  left: calc(50% + 11px);
+  border-radius: var(--br-lg);
+  width: 150px;
+  height: 48px;
+}
+.send-message-text {
+  position: absolute;
+  top: 631px;
+  left: calc(50% + 27px);
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  text-align: center;
+}
+.letter-send-icon {
+  position: absolute;
+  top: 626.72px;
+  left: calc(50% - 165.34px);
+  width: 292.97px;
+  height: 246.54px;
+  object-fit: cover;
+}
+
+
+.first-name,
+.last-name,
+.noroff,
+.noroff1 {
+  position: absolute;
+  top: 263px;
+  left: calc(50% - 164px);
+  line-height: 20px;
+  font-weight: 500;
+}
+.last-name,
+.noroff,
+.noroff1 {
+  left: calc(50% - 51px);
+}
+.noroff,
+.noroff1 {
+  top: 278px;
+  left: calc(50% - 163.91px);
+  font-size: var(--font-size-xs);
+}
+.noroff1 {
+  left: calc(50% - 51px);
+}
+.contact-info-frame {
+  position: absolute;
+  top: 828px;
+  left: 0;
+  width: 390px;
+  height: 397px;
+  background-color: black;
+}
+.contact-header {
+  position: absolute;
+  top: 853px;
+  left: 72px;
+  font-size: var(--sub-heading-size);
+  font-weight: 600;
+}
+.phone-icon {
+  position: absolute;
+  top: 0;
+  left: 27px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.number {
+  position: absolute;
+  top: 34px;
+  left: 0;
+}
+.phone-number-header {
+  position: absolute;
+  top: 908px;
+  left: 132px;
+  width: 87px;
+  height: 52px;
+  font-size: var(--font-size-sm);
+}
+.icsharp-email-icon {
+  position: absolute;
+  top: 975px;
+  left: 164px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.noroffnoroffcom {
+  position: absolute;
+  top: 1009px;
+  left: 120px;
+  font-size: var(--font-size-sm);
+}
+.carbonlocation-filled-icon {
+  position: absolute;
+  top: 1042px;
+  left: 164px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.trondheim-trd {
+  position: absolute;
+  top: 1076px;
+  left: 66px;
+  font-size: var(--font-size-sm);
+  text-align: center;
+  display: inline-block;
+  width: 221px;
+}
+.iphone-14-contact-us-child5 {
+  position: absolute;
+  top: 1121px;
+  left: 198px;
+  width: 192px;
+  height: 192px;
+}
+.iphone-14-contact-us-child6 {
+  position: absolute;
+  top: 1117px;
+  left: 198px;
+  width: 54px;
+  height: 54px;
+}
+.news-letter-child2,
+.news-letter4 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.news-letter-child2 {
+  height: 100%;
+  top: 0;
+  border-radius: 0 0 var(--br-xs) var(--br-xs);
+  background-color: var(--color-gray-1500);
+}
+.news-letter4 {
+  height: 14.16%;
+  top: 85.84%;
+}
+.subscribe4 {
+  width: 20.77%;
+  top: 86.62%;
+  left: 6.41%;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: inline-block;
+}
+.input4,
+.join-our-newsletter4,
+.subscribe4 {
+  position: absolute;
+  font-family: var(--font-inter);
+}
+.input4 {
+  border: 0;
+  font-size: var(--font-size-lg);
+  background-color: var(--color-gray-1600);
+  top: 1283px;
+  left: 25px;
+  border-radius: var(--br-3xl);
+  width: 340px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md) var(--padding-lg);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.join-our-newsletter4 {
+  top: calc(50% + 631.5px);
+  right: 16px;
+  line-height: 20px;
+  display: inline-block;
+  width: 349px;
+  opacity: 0.4;
+  mix-blend-mode: normal;
+}
+.instagram-icon4,
+.twitter-icon4,
+.vector-icon47,
+.youtube-icon4 {
+  position: absolute;
+  height: 1.89%;
+  width: 8.46%;
+  top: 82.34%;
+  right: 86.15%;
+  bottom: 15.77%;
+  left: 5.38%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.instagram-icon4,
+.twitter-icon4,
+.youtube-icon4 {
+  height: 2.15%;
+  width: 8.87%;
+  top: 82.27%;
+  right: 54.97%;
+  bottom: 15.58%;
+  left: 36.15%;
+  object-fit: cover;
+}
+.instagram-icon4,
+.twitter-icon4 {
+  right: 65.34%;
+  left: 25.79%;
+}
+.instagram-icon4 {
+  right: 75.7%;
+  left: 15.43%;
+}
+.noroffnoroffcom1 {
+  position: absolute;
+  top: 349px;
+  left: 31px;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+}
+.iphone-14-contact-us-child7 {
+  position: absolute;
+  top: 363.5px;
+  left: 31px;
+  width: 110px;
+  height: 1px;
+}
+.div4,
+.email {
+  position: absolute;
+  font-weight: 500;
+}
+.email {
+  top: 329px;
+  left: 31px;
+  line-height: 20px;
+}
+.div4 {
+  top: 349px;
+  left: 176px;
+  font-size: var(--font-size-xs);
+}
+.iphone-14-contact-us-child8 {
+  position: absolute;
+  top: 363.5px;
+  left: 177px;
+  width: 110px;
+  height: 1px;
+}
+.phone-number {
+  position: absolute;
+  top: 329px;
+  left: 176px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.home-icon7,
+.menu-alt-47,
+.menu-icon7,
+.vector-icon48,
+.vector-icon49 {
+  position: absolute;
+  height: 38.46%;
+  width: 5.13%;
+  top: 26.92%;
+  right: 14.36%;
+  bottom: 34.62%;
+  left: 80.51%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.home-icon7,
+.menu-alt-47,
+.menu-icon7,
+.vector-icon49 {
+  height: 49.45%;
+  width: 6.59%;
+  top: 19.23%;
+  right: 3.59%;
+  bottom: 31.32%;
+  left: 89.82%;
+}
+.home-icon7,
+.menu-alt-47,
+.vector-icon49 {
+  height: 32.69%;
+  width: 4.36%;
+  top: 26.92%;
+  right: 4.62%;
+  bottom: 40.38%;
+  left: 91.03%;
+}
+.home-icon7,
+.vector-icon49 {
+  height: 44.23%;
+  width: 6.15%;
+  top: 25%;
+  right: 23.85%;
+  bottom: 30.77%;
+  left: 70%;
+}
+.home-icon7 {
+  height: 61.54%;
+  width: 8.21%;
+  top: 13.46%;
+  right: 88.72%;
+  bottom: 25%;
+  left: 3.08%;
+}
+.component-19-child12 {
+  border: 0;
+  background-color: var(--color-gray-1300);
+  position: absolute;
+  height: 61.54%;
+  width: 49.49%;
+  top: 15.38%;
+  right: 34.62%;
+  bottom: 23.08%;
+  left: 15.9%;
+  border-radius: var(--br-xl);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+}
+.search-for-movies7,
+.search-icon7 {
+  position: absolute;
+  top: 28.85%;
+  left: 17.95%;
+}
+.search-icon7 {
+  height: 30.77%;
+  width: 4.1%;
+  right: 36.92%;
+  bottom: 40.38%;
+  left: 58.97%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.contact-us-page {
+  position: relative;
+  background-color: var(--color-gray-1700);
+  width: 100%;
+  height: 1427px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--btn-size);
+  color: var(--ffffff-white);
+  font-family: var(--font-poppins);
+}

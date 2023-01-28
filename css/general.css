@@ -1,0 +1,66 @@
+:root {
+ /* fonts */
+ --font-roboto: Roboto;
+ --sub-heading: Outfit;
+ --font-poppins: Poppins;
+ --font-inherit: inherit;
+ --font-inter: Inter;
+ --font-urbanist: Urbanist;
+ --font-anton: Anton;
+ --btn: "Plus Jakarta Sans";
+ --font-work-sans: "Work Sans";
+
+ /* font sizes */
+ --font-size-2xs: 8px;
+ --font-size-xs: 10px;
+ --font-size-sm: 12px;
+ --btn-size: 14px;
+ --font-size-lg: 16px;
+ --h3-size: 18px;
+ --font-size-2xl: 19px;
+ --sub-heading-size: 20px;
+ --font-size-4xl: 24px;
+ --font-size-5xl: 26px;
+
+ /* Colors */
+ --color-gray-100: #fefcfc;
+ --color-gray-200: #f1f3f6;
+ --gray-6: #f2f2f2;
+ --color-gray-400: #e8e8e8;
+ --gray-5: #e0e0e0;
+ --color-gray-600: #c4c4c4;
+ --color-gray-700: #c2c2c2;
+ --gray-4: #bdbdbd;
+ --color-gray-900: #828282;
+ --color-gray-1000: #6c6c6c;
+ --color-gray-1100: #555;
+ --gray-2: #4f4f4f;
+ --color-gray-1300: #494949;
+ --color-gray-1400: #1a1a1d;
+ --color-gray-1500: #0d0d0d;
+ --color-gray-1600: rgba(255, 255, 255, 0.15);
+ --color-gray-1700: rgba(20, 20, 20, 0.9);
+ --ffffff-white: #fff;
+ --color-brown-100: #be123c;
+ --color-black: #000;
+
+ /* Gaps */
+ --gap-md: 18px;
+
+ /* Paddings */
+ --padding-sm: 8px;
+ --padding-md: 12px;
+ --padding-lg: 24px;
+
+ /* border radiuses */
+ --br-4xs: 5px;
+ --br-3xs: 6px;
+ --br-2xs: 8px;
+ --br-xs: 10px;
+ --br-sm: 12px;
+ --br-md: 16px;
+ --br-lg: 20px;
+ --br-xl: 24px;
+ --br-2xl: 30px;
+ --br-3xl: 40px;
+}

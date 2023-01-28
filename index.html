@@ -1,13 +1,129 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My first website</title>
-  </head>
-  <body>
-    <h1>Hello world!</h1>
-    <p>Welcome to my first website.</p>
-    <h2>Web Security</h2>
-    <p id="web-security-question">How would you advise a potential client to secure his/her website from web security attacks? Note: the word count for your answer should not be greater than 250 words</p>
-    <p id="web-security-answer"></p> For a potential customer, I would first begin to map out what the website will be used for, and what information will be available. After this, I would inform about which threats and risks could affect the security of the website. An attack against a business can be devastating for both the business and its customers. To be able to make sure that the code used on the website is approved by security protocols, I would use CI/CD tools (continuous deployment/continuous integration). This keeps each change in the code either flagged for rework or approved. Strong passwords and two-factor authorization are a good start to prevent password leakage. Third-party code sanitization solution works so that hackers cannot unknowingly enter code that wreaks havoc on the client's website. You must use a specific sanitization for a specific type of code, such as JS, HTML, etc. The website must also be secured with HTTPS. The HTTPS protocol allows you to send secure communications over your computer network and prevents intruders from accessing your information.
-  </body>
-</html> 
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="desciption" content="Watch high quality films on SquareEyes" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="./css/general.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>SquareEyes | Home</title>
+  <script
+   src="https://kit.fontawesome.com/a2e18a1d66.js"
+   crossorigin="anonymous"></script>
+
+  <link
+   rel="stylesheet"
+   href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" />
+  <link
+   rel="stylesheet"
+   href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" />
+  <link
+   rel="stylesheet"
+   href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" />
+  <link
+   rel="stylesheet"
+   href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+  <link
+   rel="stylesheet"
+   href="https://fonts.googleapis.com/css2?family=Anton:wght@400&display=swap" />
+  <link
+   rel="stylesheet"
+   href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400&display=swap" />
+  <link
+   rel="stylesheet"
+   href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:wght@700&display=swap" />
+  <link
+   rel="stylesheet"
+   href="https://fonts.googleapis.com/css2?family=Work Sans:wght@500&display=swap" />
+ </head>
+ <body>
+  <div class="homepage-index">
+    
+  <header>
+    <img class="profile-pic" alt="" src="./images/profile-pic.svg" />
+    <img
+     class="selling-point1"
+     alt="Header Movie"
+     src="./images/batman.png"
+     id="card-numberImage" />
+ 
+    <div class="welcome-back-profile-container">
+     <p class="welcome-back"><span>Welcome back</span></p>
+     <p class="profile-name"><b>Noroff</b></p>
+    </div>
+  </header>
+
+
+   <div class="new-release">
+    <h1>New release</h1>
+   </div>
+
+   <div class="home-carousel">
+    <div class="carousel-card-number">
+     <div class="carousel-card-number-1">
+      <img
+       class="movie-carousel-1"
+       alt="Godzilla Movie"
+       src="./images/godzilla.png" /><img
+       class="movie-carousel-2"
+       alt="Toy Story 4 Movie"
+       src="./images/toystory4.png" />
+      <img
+       class="movie-carousel-3"
+       alt="Once Upon A Time In Hollywood Movie"
+       src="./images/hollywood.jpeg" />
+     </div>
+     <b class="movie-text-1">Godzilla</b><b class="movie-text-2">Toy Story 4</b
+     ><b class="movie-text-3">Once Upon a Time in Hollywood</b>
+     <div class="movie-line-1"></div>
+     <img class="line-icon" alt="" src="./icons/line-icon-1.svg" />
+    </div>
+   </div>
+   <div class="continue-watching">
+    <h2>Continue Watching</h2>
+   </div>
+   <div class="discover-button" id="Discover Button">
+    <b class="header-1"
+     ><ul class="discover-text">
+      Discover
+     </ul></b
+    >
+   </div>
+   <div class="batman-wrapper"><b class="header-1">Batman</b></div>
+   <div class="rating-content">
+    <img class="stars-content" alt="" src="./images/stars.svg" />
+    <div class="rating-user">From 342 users</div>
+   </div>
+   <div class="footer-movies" id="Footer Movies">
+    <div class="footer-movies-container">
+     <b class="movies-footer-text-1">Moonlight</b
+     ><b class="movies-footer-text-2"
+      ><p class="back-to-the-text">Back To The Future</p></b
+     ><img
+      class="footer-movie-1"
+      alt="Moonlight Movie"
+      src="./images/moonlight.png" /><img
+      class="footer-movie-2"
+      alt="Back To The Future Movie"
+      src="./images/backtothefuture.png" />
+    </div>
+    <b class="footer-movie-1-price">49$</b
+    ><b class="footer-movie-2-price">19$</b>
+   </div>
+
+
+
+
+   <div class="footer"><div class="footer1"></div></div>
+   <b class="subscribe-button">Subscribe</b
+   ><input class="sub-text" type="email" placeholder="Enter email" />
+   <div class="join-text">
+    Join our newsletter to stay up to date on features and releases
+   </div>
+   <b class="header-movie-price">49$</b>
+  </div>
+ </body>
+</html>
