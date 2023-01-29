@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+:root {
+ --primary-color: #be123c;
+ --bg-color: #141414;
+ --bg-color-transparent: #00000065;
+ --primary-text-color: #fff;
+ --h1: 32px;
+ --h2: 24px;
+}
+
+*,
+*::after,
+*::before {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: "Outfit", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+ list-style-type: none;
+ color: var(--primary-text-color);
+ text-decoration: none;
+}
+
+body,
+html {
+ height: 100%;
+}
+
+body {
+ background-color: var(--bg-color);
+}
+
+.container {
+ padding: 15px;
+ max-width: 1000px;
+ margin: 0 auto;
+ height: 100%;
+}
+
+/* Main styles */
+nav {
+ display: flex;
+ justify-content: center;
+ position: relative;
+}
+
+.top-nav {
+ display: flex;
+ flex: 1;
+ align-items: center;
+ justify-content: space-between;
+ background-color: var(--bg-color-transparent);
+ margin: -15px;
+ padding: 15px;
+}
+
+.top-nav > div {
+ flex: 1;
+}
+
+.top-nav input {
+ border: 1px solid var(--primary-text-color);
+ border-radius: 5px;
+ outline: none;
+ width: 100%;
+ background-color: var(--bg-color-transparent);
+ padding: 5px;
+ height: 35px;
+ display: none;
+}
+
+.top-nav .actions {
+ display: flex;
+ justify-content: flex-end;
+ gap: 10px;
+}
+
+.nav-island {
+ position: fixed;
+ bottom: 20px;
+ display: flex;
+ align-self: center;
+ max-width: 500px;
+ width: fit-content;
+ background-color: var(--primary-color);
+ padding: 10px 20px;
+ border-radius: 10px;
+ height: fit-content;
+}
+
+.nav-island ul {
+ display: flex;
+ gap: 15px;
+}
+
+.active {
+ text-decoration: underline;
+}
+
+/* Main sections */
+main {
+ margin-top: 40px;
+}
+
+section {
+ margin: 20px 0;
+}
+
+section h2  {
+ margin-bottom: 15px;
+}
+
+section.new-release h1 {
+ font-size: var(--h1);
+ margin-bottom: 10px;
+}
+
+section.new-release > div {
+ flex: 1;
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ height: 250px;
+}
+
+section.new-release > div .movie-poster {
+ border-radius: 10px;
+ max-width: 100%;
+ max-height: 100%;
+ object-fit: cover;
+ object-position: top;
+}
+
+section.new-release .movie-info {
+ position: absolute;
+ top: 30%;
+ left: 10%;
+ font-size: 24px;
+ line-height: 1;
+}
+
+section.new-release .movie-info .rating {
+ height: 15px;
+}
+
+section.new-release .movie-info p:last-of-type {
+ font-size: 12px;
+ font-weight: 200;
+}
+
+section.new-release > div .movie-price {
+ position: absolute;
+ font-size: 24px;
+ bottom: 5px;
+ right: 5px;
+}
+
+/* Continue watching section */
+section.continue-watching {
+ display: flex;
+ flex-direction: column;
+}
+
+section.continue-watching h2 {
+ font-size: var(--h2);
+ margin-bottom: 10px;
+}
+
+.continue-watching__movies {
+ display: flex;
+ overflow: scroll;
+ gap: 20px;
+}
+
+.movies__container:hover {
+ cursor: pointer;
+}
+
+.movies__container > div {
+ width: 220px;
+ height: 140px;
+}
+
+.movies__container > div img {
+ border-radius: 10px;
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ object-position: top;
+}
+
+.movies__container p {
+ margin-top: 5px;
+ font-size: 12px;
+}
+
+.discover.continue-watching__movies {
+ display: flex;
+ flex: 1;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+section.discover .discover .movies__container {
+ display: flex;
+ flex-direction: column;
+ width: fit-content;
+}
+
+@media screen and (min-width: 720px) {
+ header {
+  margin-bottom: 100px;
+ }
+
+ .top-nav input {
+  display: flex;
+ }
+
+ .nav-island {
+  position: absolute;
+  top: 100px;
+ }
+
+ section.new-release > div {
+  height: 400px;
+ }
+}
+
+/* SMALL */
+@media only screen and (max-width: 720px) {
+ /* FOOTER */
+
+ footer {
+  display: none;
+ }
+}
+
+/* FOOTER */
+
+footer {
+ text-align: center;
+ color: #545454;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+
+.footer > p {
+ font-size: 0.825rem;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-twitter {
+ font-size: 2rem;
+ color: #949494;
+ padding: 5px 10px;
+}
+
+/* Top 10 */
+
+.movie-info-gif {
+ position: absolute;
+ bottom: 10%;
+ left: 1%;
+ font-size: 24px;
+ line-height: 1,5;
+}
+
+
+
+.movie-info-gif p:last-of-type {
+ font-size: 12px;
+ font-weight: 200;
+}
+
+section.continue-watching h1 {
+    margin-bottom: 10px;
+}

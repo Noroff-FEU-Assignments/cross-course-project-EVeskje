@@ -1,129 +1,164 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
  <head>
   <meta charset="UTF-8" />
-  <meta name="desciption" content="Watch high quality films on SquareEyes" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <link rel="stylesheet" href="./css/general.css" />
-  <link rel="stylesheet" href="./css/styles.css" />
-
-  <link rel="stylesheet" href="css/styles.css" />
-  <title>SquareEyes | Home</title>
+  <link rel="stylesheet" href="./style/styles.css" />
   <script
    src="https://kit.fontawesome.com/a2e18a1d66.js"
    crossorigin="anonymous"></script>
-
-  <link
-   rel="stylesheet"
-   href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" />
-  <link
-   rel="stylesheet"
-   href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" />
-  <link
-   rel="stylesheet"
-   href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" />
-  <link
-   rel="stylesheet"
-   href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
-  <link
-   rel="stylesheet"
-   href="https://fonts.googleapis.com/css2?family=Anton:wght@400&display=swap" />
-  <link
-   rel="stylesheet"
-   href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400&display=swap" />
-  <link
-   rel="stylesheet"
-   href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:wght@700&display=swap" />
-  <link
-   rel="stylesheet"
-   href="https://fonts.googleapis.com/css2?family=Work Sans:wght@500&display=swap" />
+  <title>Home - Square Eyes</title>
  </head>
  <body>
-  <div class="homepage-index">
-    
-  <header>
-    <img class="profile-pic" alt="" src="./images/profile-pic.svg" />
-    <img
-     class="selling-point1"
-     alt="Header Movie"
-     src="./images/batman.png"
-     id="card-numberImage" />
- 
-    <div class="welcome-back-profile-container">
-     <p class="welcome-back"><span>Welcome back</span></p>
-     <p class="profile-name"><b>Noroff</b></p>
-    </div>
-  </header>
-
-
-   <div class="new-release">
-    <h1>New release</h1>
-   </div>
-
-   <div class="home-carousel">
-    <div class="carousel-card-number">
-     <div class="carousel-card-number-1">
-      <img
-       class="movie-carousel-1"
-       alt="Godzilla Movie"
-       src="./images/godzilla.png" /><img
-       class="movie-carousel-2"
-       alt="Toy Story 4 Movie"
-       src="./images/toystory4.png" />
-      <img
-       class="movie-carousel-3"
-       alt="Once Upon A Time In Hollywood Movie"
-       src="./images/hollywood.jpeg" />
+  <div class="container">
+   <header>
+    <nav>
+     <div class="top-nav">
+      <div class="logo"><img src="./assets/logo.png" alt="logo" /></div>
+      <div class="search">
+       <input type="text" placeholder="What do you want to watch?" />
+      </div>
+      <div class="actions">
+       <a href="./index.html">Home</a>
+       <a href="#">Cart</a>
+       <a href="#">Profile</a>
+      </div>
      </div>
-     <b class="movie-text-1">Godzilla</b><b class="movie-text-2">Toy Story 4</b
-     ><b class="movie-text-3">Once Upon a Time in Hollywood</b>
-     <div class="movie-line-1"></div>
-     <img class="line-icon" alt="" src="./icons/line-icon-1.svg" />
-    </div>
-   </div>
-   <div class="continue-watching">
-    <h2>Continue Watching</h2>
-   </div>
-   <div class="discover-button" id="Discover Button">
-    <b class="header-1"
-     ><ul class="discover-text">
-      Discover
-     </ul></b
+     <div class="nav-island">
+      <ul>
+       <li class="active"><a href="./index.html">Home</a></li>
+       <li><a href="./pages/top10.html">Top 10</a></li>
+       <li><a href="./pages/discover.html">Discover</a></li>
+      </ul>
+     </div>
+    </nav>
+   </header>
+   <main>
+    <section class="new-release">
+     <h1>New release</h1>
+     <div>
+      <img
+       class="movie-poster"
+       src="./assets/movie-pictures/batman_full.jpeg"
+       alt="batman" />
+      <div class="movie-info">
+       <p>Batman</p>
+       <img class="rating" src="./assets/stars.svg" alt="rating" />
+       <p>From 342 users</p>
+      </div>
+      <p class="movie-price">49$</p>
+     </div>
+    </section>
+    <section class="continue-watching">
+     <h2>Our Favorites</h2>
+     <div class="continue-watching__movies">
+      <div class="movies__container">
+       <div>
+        <img src="./assets/movie-pictures/toy-story.jpeg" alt="toy story" />
+       </div>
+       <p>Toy Story 4</p>
+      </div>
+
+      <div class="movies__container">
+       <div>
+        <img src="./assets/movie-pictures/godzilla.jpeg" alt="godzilla" />
+       </div>
+       <p>Godzilla</p>
+      </div>
+
+      <div class="movies__container">
+       <div>
+        <img src="./assets/movie-pictures/adam.jpg" alt="black adam" />
+       </div>
+       <p>Black Adam</p>
+      </div>
+
+      <div class="movies__container">
+       <div>
+        <img src="./assets/movie-pictures/avatar.jpg" alt="avatar" />
+       </div>
+       <p>Avatar</p>
+      </div>
+
+      <div class="movies__container">
+       <div>
+        <img
+         src="./assets/movie-pictures/Backtothefuture.jpg"
+         alt="back to the future" />
+       </div>
+       <p>Back To The Future</p>
+      </div>
+     </div>
+    </section>
+    <section class="discover">
+     <h2>Discover</h2>
+     <div class="discover continue-watching__movies">
+      <div class="movies__container">
+       <div>
+        <img
+         src="./assets/movie-pictures/interstellar-ice-walk-i23290.jpg"
+         alt="interstellar" />
+       </div>
+       <p>Interstellar</p>
+      </div>
+
+      <div class="movies__container">
+       <div>
+        <img
+         src="./assets/movie-pictures/Joker-2019-Final-Style-steps-Poster-buy-original-movie-posters-at-starstills__62518.jpg"
+         alt="joker" />
+       </div>
+       <p>Joker</p>
+      </div>
+
+      <div class="movies__container">
+       <div>
+        <img src="./assets/movie-pictures/jurassic.jpg" alt="jurassic" />
+       </div>
+       <p>Jurassic Park</p>
+      </div>
+
+      <div class="movies__container">
+        <div>
+         <img src="./assets/movie-pictures/avatar.jpg" alt="avatar" />
+        </div>
+        <p>Avatar</p>
+       </div>
+
+       <div class="movies__container">
+        <div>
+         <img src="./assets/movie-pictures/moonlight.jpeg" alt="moonlight" />
+        </div>
+        <p>Moonlight</p>
+       </div>
+
+       <div class="movies__container">
+        <div>
+         <img src="./assets/movie-pictures/old.jpg" alt="old" />
+        </div>
+        <p>Old</p>
+       </div>
+
+     </div>
+    </section>
+   </main>
+
+   <footer>
+    <a href="https://www.facebook.com/"
+     ><i class="fa-brands fa-facebook" title="Facebook link icon"></i
+     ><span class="fa-sr-only">Facebook link icon</span></a
     >
-   </div>
-   <div class="batman-wrapper"><b class="header-1">Batman</b></div>
-   <div class="rating-content">
-    <img class="stars-content" alt="" src="./images/stars.svg" />
-    <div class="rating-user">From 342 users</div>
-   </div>
-   <div class="footer-movies" id="Footer Movies">
-    <div class="footer-movies-container">
-     <b class="movies-footer-text-1">Moonlight</b
-     ><b class="movies-footer-text-2"
-      ><p class="back-to-the-text">Back To The Future</p></b
-     ><img
-      class="footer-movie-1"
-      alt="Moonlight Movie"
-      src="./images/moonlight.png" /><img
-      class="footer-movie-2"
-      alt="Back To The Future Movie"
-      src="./images/backtothefuture.png" />
-    </div>
-    <b class="footer-movie-1-price">49$</b
-    ><b class="footer-movie-2-price">19$</b>
-   </div>
-
-
-
-
-   <div class="footer"><div class="footer1"></div></div>
-   <b class="subscribe-button">Subscribe</b
-   ><input class="sub-text" type="email" placeholder="Enter email" />
-   <div class="join-text">
-    Join our newsletter to stay up to date on features and releases
-   </div>
-   <b class="header-movie-price">49$</b>
+    <a href="https://www.instagram.com/"
+     ><i class="fa-brands fa-instagram" title="Instagram link icon"></i
+     ><span class="fa-sr-only">Instagram link icon</span></a
+    >
+    <a href="https://twitter.com/"
+     ><i class="fa-brands fa-twitter"></i>
+     <span class="fa-sr-only">Twitter link icon</span></a
+    >
+    <p>Copyright &copy; 2023 SquareEyes</p>
+   </footer>
   </div>
  </body>
 </html>
