@@ -107,7 +107,7 @@ section {
  margin: 20px 0;
 }
 
-section h2  {
+section h2 {
  margin-bottom: 15px;
 }
 
@@ -121,7 +121,7 @@ section.new-release > div {
  position: relative;
  display: flex;
  flex-direction: column;
- height: 250px;
+ height: 200px;
 }
 
 section.new-release > div .movie-poster {
@@ -134,8 +134,8 @@ section.new-release > div .movie-poster {
 
 section.new-release .movie-info {
  position: absolute;
- top: 30%;
- left: 10%;
+ bottom: 20%;
+ left: 5%;
  font-size: 24px;
  line-height: 1;
 }
@@ -160,6 +160,13 @@ section.new-release > div .movie-price {
 section.continue-watching {
  display: flex;
  flex-direction: column;
+}
+
+section.continue-watching p {
+ font-size: 15px;
+}
+section.continue-watching p:hover {
+ text-decoration: underline;
 }
 
 section.continue-watching h2 {
@@ -206,6 +213,14 @@ section.discover .discover .movies__container {
  display: flex;
  flex-direction: column;
  width: fit-content;
+}
+
+section.discover p {
+ font-size: 15px;
+}
+
+section.discover p:hover {
+ text-decoration: underline;
 }
 
 @media screen and (min-width: 720px) {
@@ -264,10 +279,8 @@ footer {
  bottom: 10%;
  left: 1%;
  font-size: 24px;
- line-height: 1,5;
+ line-height: 1, 5;
 }
-
-
 
 .movie-info-gif p:last-of-type {
  font-size: 12px;
@@ -275,5 +288,5 @@ footer {
 }
 
 section.continue-watching h1 {
-    margin-bottom: 10px;
+ margin-bottom: 10px;
 }
