@@ -129,7 +129,7 @@ section.new-release > div .movie-poster {
  max-width: 100%;
  max-height: 100%;
  object-fit: cover;
- object-position: top;
+ object-position: 20% 10%;
 }
 
 section.new-release .movie-info {
