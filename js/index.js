@@ -1,3 +1,4 @@
+
 const favContainer = document.querySelector(".continue-watching__movies")
 const discoverContainer = document.querySelector(".discover .continue-watching__movies")
 const apiUrl = "https://api.noroff.dev/api/v1/square-eyes/";
@@ -9,7 +10,7 @@ async function getData() {
         const data = await response.json(); // Process to JSON
 
         for(let i = 0; i < data.length; i++) {
-            if(i === 4) break;
+            if(i === 10) break;
             favContainer.innerHTML += `
             <div class="movies__container">
                 <div>
@@ -17,6 +18,7 @@ async function getData() {
                 </div>
                 <p>${data[i].title}</p>
                 <p>${data[i].price}</p>
+                <p>${data[i].genre}</p>
             </div>    
             `
         }
@@ -27,11 +29,13 @@ async function getData() {
                 <div>
                     <img src="${data[i].image}" alt="${data[i].title}"/>
                 </div>
-                <p>${data[i].title}</p>
+                <p class="title-product">${data[i].title}</p>
                 <p>${data[i].price}</p>
+                <p>${data[i].genre}</p>
             </div>    
             `
         }
+
 
     } catch (error) {
         console.log(error);
