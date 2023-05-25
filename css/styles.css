@@ -541,3 +541,40 @@ section.continue-watching h1 {
   gap: 36px;
  }
 }
+
+
+/* Error Message */
+
+.error-message {
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+/* Loader */
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.loader {
+  border: 8px solid rgba(231, 228, 228, 0.1);
+  border-left-color: #f1c40f;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
