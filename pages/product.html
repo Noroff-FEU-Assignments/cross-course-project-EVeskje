@@ -14,19 +14,24 @@
   <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
 
   <script src="../js/errorMessage.js" type="module" defer></script>
-  <script src="../js/index.js" type="module" defer></script>
+  <script src="../js/product.js" type="module" defer></script>
 
   <!-- Hotjar Tracking Code for https://cross-course-project-veskje.netlify.app/pages/discover.html -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:3504030,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+  <script>
+   (function (h, o, t, j, a, r) {
+    h.hj =
+     h.hj ||
+     function () {
+      (h.hj.q = h.hj.q || []).push(arguments);
+     };
+    h._hjSettings = { hjid: 3504030, hjsv: 6 };
+    a = o.getElementsByTagName("head")[0];
+    r = o.createElement("script");
+    r.async = 1;
+    r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+    a.appendChild(r);
+   })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+  </script>
 
   <title>SquareEyes | Product</title>
  </head>
@@ -35,7 +40,9 @@
    <header>
     <nav>
      <div class="top-nav">
-      <div class="logo"><img src="../assets/logo.png" alt="logo" /></div>
+      <div class="logo" onclick="window.location.href = '../index.html';">
+       <img src="../assets/logo.png" alt="logo" />
+      </div>
       <div class="search">
        <input type="text" placeholder="What do you want to watch?" />
       </div>
@@ -54,33 +61,18 @@
      </div>
     </nav>
    </header>
+
    <main>
-    <a href="./discover.html" class="back-button"
-     ><img src="../assets/back-icon.svg"
-    /></a>
+    <button onclick="history.back()" class="back-button">
+     <i class="fa-solid fa-chevron-left"></i>
+    </button>
     <div class="product-wrapper">
      <div class="product-card">
       <div class="product-card-image">
-       <img
-        src="/assets/movie-pictures/godzilla.jpeg"
-        class="filmcover-product"
-        alt="Godzilla: King Of Monsters" />
+       <div class="loader"></div>
       </div>
-      <div class="product-card-content">
-       <div class="product-content-container">
-        <h1 class="film-title-product-desktop">Godzilla: King Of Monsters</h1>
-        <p class="film-category">Action | 2022 | 1 t 43 min | 15 år | 4k</p>
-        <p>
-         The crypto-zoological agency Monarch faces off against a battery of
-         god-sized monsters, including the mighty Godzilla, who collides with
-         Mothra, Rodan, and his ultimate nemesis, the three-headed King
-         Ghidorah.
-        </p>
-        <div class="price-cta-container">
-         <p class="price-product">$ 5.95</p>
-         <a href="./checkout.html" class="cta">Buy Now</a>
-        </div>
-       </div>
+      <div class="product-content-container">
+       <div class="loader" id="loader"></div>
       </div>
      </div>
     </div>

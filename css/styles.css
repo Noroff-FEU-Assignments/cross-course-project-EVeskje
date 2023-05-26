@@ -38,6 +38,19 @@ body {
  height: 100%;
 }
 
+.back-button {
+ display: block;
+ text-decoration: none;
+ background-color: transparent;
+ border: none;
+ font-size: 1.25rem;
+ font-weight: 600;
+ margin: 10px 0px 30px 130px;
+ padding: 10px;
+}
+
+
+
 /* Main styles */
 nav {
  display: flex;
@@ -386,6 +399,15 @@ section.continue-watching h1 {
  padding: 10px;
 }
 
+.film-title-product-mobile {
+ display: none;
+}
+
+.film-title-product-desktop {
+ display: block;
+ margin: 0px;
+}
+
 .filmcover-product {
  width: 313px;
  height: 494px;
@@ -433,11 +455,11 @@ section.continue-watching h1 {
 }
 
 .assorted-filmcovers {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  width: 30%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 20px;
+ width: 30%;
 }
 
 /* MEDIUM */
@@ -463,7 +485,9 @@ section.continue-watching h1 {
   gap: 0px;
  }
 
-
+ .back-button {
+  margin: 4px 0px 4px 28px;
+ }
 
  .film-category {
   font-size: 1rem;
@@ -481,6 +505,9 @@ section.continue-watching h1 {
  .empty-cart-text {
   padding-top: 30px;
  }
+
+ 
+
 }
 
 /* SMALL */
@@ -510,7 +537,6 @@ section.continue-watching h1 {
   gap: 1px;
  }
 
-
  .price-product {
   font-size: 1.5rem;
   margin: 0px auto 20px auto;
@@ -527,12 +553,28 @@ section.continue-watching h1 {
  }
 
  .assorted-filmcovers {
-  width: 50%
-}
+  width: 50%;
+ }
+
+ .film-title-product-mobile {
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+ }
+
+ .film-title-product-desktop {
+  display: none;
+ }
 
  footer {
   display: none;
  }
+
+ .back-button {
+  font-size: 1.2rem;
+  margin: 0 0 0 2px;
+ }
+
 }
 
 /* LARGE */
@@ -540,41 +582,41 @@ section.continue-watching h1 {
  .product-card {
   gap: 36px;
  }
+ .back-button {
+  margin: 10px 0px 0px 58px;
+ }
 }
-
 
 /* Error Message */
 
 .error-message {
-  color: var(--primary-color);
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 20px;
+ color: white;
+ font-size: 18px;
+ font-weight: bold;
+ text-align: center;
+ margin-top: 20px;
 }
-
 
 /* Loader */
 
 .loader-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
 }
 
 .loader {
-  border: 8px solid rgba(231, 228, 228, 0.1);
-  border-left-color: #f1c40f;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  animation: spin 1s linear infinite;
+ border: 8px solid rgba(231, 228, 228, 0.1);
+ border-left-color: #f1c40f;
+ border-radius: 50%;
+ width: 50px;
+ height: 50px;
+ animation: spin 1s linear infinite;
 }
 
 @keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
+ to {
+  transform: rotate(360deg);
+ }
 }
-
