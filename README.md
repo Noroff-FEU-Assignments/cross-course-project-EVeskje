@@ -3,8 +3,7 @@
 School assignment were I am learning to create a website from Design1-course with HTML, CSS & JS.
 
 <h2>Brief</h2>
-In this course assignment we were given the task of developing SquareEyes, our own designed prototype from last course assignment. The site should be a functional, well presented website written with HTML, CSS & JS. There were several criteria to be met, such as neat semantic, responsiveness and CSS after the DRY principles. We could use Flexbox and Grid where appropriate, and the site should be WCAG compliant. Accessibility should be taken into account.
-Framework is not allowed.
+For this course assignment, we were tasked with creating SquareEyes, our personalized prototype based on the previous course assignment. The objective was to develop a fully functional and visually appealing website using HTML, CSS, and JS. To meet the requirements, we had to ensure the code followed neat semantic practices, demonstrate responsiveness, and adhere to the CSS principles of DRY (Don't Repeat Yourself). When appropriate, we could incorporate Flexbox and Grid. Additionally, the website needed to be WCAG compliant, prioritizing accessibility. It's important to note that the use of frameworks was not permitted for this assignment.
 
 **<h3>Images</h3>**
 www.cinematerial.com
