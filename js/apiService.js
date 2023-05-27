@@ -1,5 +1,7 @@
 export const baseApiUrl = "https://api.noroff.dev/api/v1";
 export const endpointApiUrl = "/square-eyes";
+const baseUrl = `https://api.noroff.dev/api/v1`;
+export const url = `${baseUrl}/square-eyes/`;
 
 export async function getData(url) {
   try {
@@ -14,3 +16,4 @@ export async function getData(url) {
     throw new Error(error);
   }
 }
+

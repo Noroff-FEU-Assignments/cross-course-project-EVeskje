@@ -19,7 +19,7 @@ async function fetchData() {
             <img src="${data[i].image}" alt="${data[i].title}" />
           </div>
           <p>${data[i].title}</p>
-          <p>${data[i].price}</p>
+          <p>${data[i].price}$</p>
         </div>
       `;
     }
@@ -32,7 +32,7 @@ async function fetchData() {
             <img src="${data[i].image}" alt="${data[i].title}" />
           </div>
           <p class="title-product">${data[i].title}</p>
-          <p>${data[i].price}</p>
+          <p>${data[i].price}$</p>
         </div>
       `;
     }
@@ -41,6 +41,7 @@ async function fetchData() {
     createMessage();
   }
 }
+
 
 function showLoader() {
   favContainer.innerHTML = '<div class="loader"></div>';

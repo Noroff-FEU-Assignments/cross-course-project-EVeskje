@@ -1,6 +1,6 @@
 import { baseApiUrl, endpointApiUrl } from "./apiService.js";
 import { createMessage } from "./errorMessage.js";
-import {getMovie} from "./apiService.js";
+import {getMovie} from "./APIsingle.js";
 
 const product = document.querySelector(".container");
 const apiUrl = `${baseApiUrl}${endpointApiUrl}`;

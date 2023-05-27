@@ -20,6 +20,12 @@
  text-decoration: none;
 }
 
+.logo img {
+  width: 135px;
+  height: auto;
+  
+}
+
 body,
 html {
  height: 100%;
@@ -66,6 +72,7 @@ nav {
  background-color: var(--bg-color-transparent);
  margin: -15px;
  padding: 15px;
+ border-radius: 15px;
 }
 
 .top-nav > div {
@@ -105,6 +112,7 @@ nav {
  border-radius: 10px;
  height: fit-content;
  border-radius: 10px;
+ z-index: 1;
 }
 
 .nav-island ul {
