@@ -26,14 +26,13 @@ async function getProduct(){
       ${movie.description}
      </p>
      <div class="price-cta-container">
-      <p class="price-product">$ 5.95</p>
+      <p class="price-product">${movie.price}$</p>
       <a href="./checkout.html" class="cta">Buy Now</a>
      </div>
     </div>
    </div>
   </div>
  </div>
-          
   `
   
 }
