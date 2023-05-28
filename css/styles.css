@@ -141,13 +141,12 @@ section.new-release h1 {
  margin-bottom: 10px;
 }
 
-/* section.new-release > div {
+section.new-release > div {
  flex: 1;
  position: relative;
  display: flex;
  flex-direction: column;
  height: 200px;
- border: 1px solid red;
 
 }
 
@@ -157,7 +156,7 @@ section.new-release > div .movie-poster {
  max-height: 100%;
  object-fit: cover;
  object-position: 20% 10%;
-} */
+}
 
 /* .movie-poster {
  border-radius: 10px;
@@ -166,7 +165,7 @@ section.new-release > div .movie-poster {
  object-fit: cover;
  object-position: 20% 10%;
 } */
-.movie-front {
+/* .movie-front {
  display: flex;
  flex: 1;
  width: 100%;
@@ -174,23 +173,23 @@ section.new-release > div .movie-poster {
 
 .movie-front a {
  width: 100%;
-}
+} */
 
-.movie-poster {
+/* .movie-poster {
  border-radius: 10px;
  min-width: 100%;
  max-height: 100%;
  object-fit: cover;
  object-position: 20% 10%;
-}
+} */
 
-.movie-info {
+/* .movie-info {
  flex: 1;
  position: relative;
  display: flex;
  flex-direction: column;
  height: 200px;
-}
+} */
 
 section.new-release .movie-info {
  position: absolute;
@@ -305,7 +304,7 @@ section.discover p:hover {
   height: 400px;
  }
 
- .container {
+ .con {
   height: 400px;
  }
 }

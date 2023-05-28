@@ -14,16 +14,20 @@ async function fetchPoster () {
 
   poster.innerHTML = `
   <a href="../pages/product.html?id=${response.id}">
-  <img
-  class="movie-poster"
-  src="${response.image}"
-  alt="batman" />
- <div class="movie-info">
-  <p>${response.title}</p>
-  <img class="rating" src="./assets/stars.svg" alt="rating" />
-  <p>From 342 users</p>
- </div>
- <p class="movie-price">${response.price}$</p>
+  <section class="new-release">
+   <div>
+    <img
+     class="movie-poster"
+     src="${response.image}"
+     alt="batman" />
+    <div class="movie-info">
+     <p>${response.title}</p>
+     <img class="rating" src="./assets/stars.svg" alt="rating" />
+     <p>From 342 users</p>
+    </div>
+    <p class="movie-price">${response.price}$</p>
+   </div>
+  </section>
  </a>
   `;
   
