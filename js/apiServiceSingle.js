@@ -1,11 +1,11 @@
 import { url } from "./apiService.js";
 import { id } from "./const.js";
 
-const ProdUrl = url + id;
+const prodUrl = url + id;
 
 export async function getMovie() {
   try {
-    const answer = await fetch(ProdUrl);
+    const answer = await fetch(prodUrl);
     const result = await answer.json();
     return result;
   } catch (error) {

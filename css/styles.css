@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
 
+/* Main styles */
 :root {
  --primary-color: #be123c;
  --bg-color: #141414;
@@ -21,9 +22,8 @@
 }
 
 .logo img {
-  width: 135px;
-  height: auto;
-  
+ width: 135px;
+ height: auto;
 }
 
 body,
@@ -55,9 +55,8 @@ body {
  padding: 10px;
 }
 
+/* Nav */
 
-
-/* Main styles */
 nav {
  display: flex;
  justify-content: center;
@@ -142,12 +141,14 @@ section.new-release h1 {
  margin-bottom: 10px;
 }
 
-section.new-release > div {
+/* section.new-release > div {
  flex: 1;
  position: relative;
  display: flex;
  flex-direction: column;
  height: 200px;
+ border: 1px solid red;
+
 }
 
 section.new-release > div .movie-poster {
@@ -156,6 +157,39 @@ section.new-release > div .movie-poster {
  max-height: 100%;
  object-fit: cover;
  object-position: 20% 10%;
+} */
+
+/* .movie-poster {
+ border-radius: 10px;
+ max-width: 100%;
+ max-height: 100%;
+ object-fit: cover;
+ object-position: 20% 10%;
+} */
+.movie-front {
+ display: flex;
+ flex: 1;
+ width: 100%;
+}
+
+.movie-front a {
+ width: 100%;
+}
+
+.movie-poster {
+ border-radius: 10px;
+ min-width: 100%;
+ max-height: 100%;
+ object-fit: cover;
+ object-position: 20% 10%;
+}
+
+.movie-info {
+ flex: 1;
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ height: 200px;
 }
 
 section.new-release .movie-info {
@@ -268,6 +302,10 @@ section.discover p:hover {
  }
 
  section.new-release > div {
+  height: 400px;
+ }
+
+ .container {
   height: 400px;
  }
 }
@@ -462,14 +500,6 @@ section.continue-watching h1 {
  padding-top: 20px;
 }
 
-.assorted-filmcovers {
- display: block;
- margin-left: auto;
- margin-right: auto;
- padding: 20px;
- width: 30%;
-}
-
 /* MEDIUM */
 @media only screen and (min-width: 701px) and (max-width: 799px) {
  /* GENERAL STYLES*/
@@ -513,9 +543,6 @@ section.continue-watching h1 {
  .empty-cart-text {
   padding-top: 30px;
  }
-
- 
-
 }
 
 /* SMALL */
@@ -582,7 +609,6 @@ section.continue-watching h1 {
   font-size: 1.2rem;
   margin: 0 0 0 2px;
  }
-
 }
 
 /* LARGE */
