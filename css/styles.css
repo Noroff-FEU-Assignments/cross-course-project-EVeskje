@@ -51,7 +51,7 @@ body {
  border: none;
  font-size: 1.25rem;
  font-weight: 600;
- margin: 10px 0px 30px 130px;
+ margin: 10px 0px 30px 28px;
  padding: 10px;
 }
 
@@ -147,7 +147,6 @@ section.new-release > div {
  display: flex;
  flex-direction: column;
  height: 200px;
-
 }
 
 section.new-release > div .movie-poster {
@@ -444,9 +443,6 @@ section.continue-watching h1 {
  align-items: flex-start;
 }
 
-
-
-
 .filmcover-product {
  width: 313px;
  height: 494px;
@@ -600,7 +596,6 @@ section.continue-watching h1 {
  .assorted-filmcovers {
   width: 50%;
  }
-
 
  footer {
   display: none;
