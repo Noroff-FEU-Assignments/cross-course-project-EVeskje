@@ -6,7 +6,6 @@ const params = new URLSearchParams(queryString);
 
 const id = params.get("id");
 
-console.log(id);
 
 async function getProduct(){
   const response = await fetch(`https://api.noroff.dev/api/v1/square-eyes/${id}`)
@@ -20,7 +19,7 @@ async function getProduct(){
    </div>
    <div class="product-card-content">
     <div class="product-content-container">
-     <h1 class="film-title-product-desktop">${movie.title}</h1>
+     <h1 class="film-title-product">${movie.title}</h1>
      <p class="film-category">${movie.genre} | ${movie.released} | Rating: ${movie.rating} | 4k</p>
      <p>
       ${movie.description}

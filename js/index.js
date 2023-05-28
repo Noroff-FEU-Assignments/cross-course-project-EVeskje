@@ -10,7 +10,6 @@ const apiUrl = `${baseApiUrl}${endpointApiUrl}`;
 
 async function fetchPoster () {
   const response = await getData("https://api.noroff.dev/api/v1/square-eyes/972df6d3-b4e8-44c1-9dec-cadd3b35102e");
-  console.log(response);
 
   poster.innerHTML = `
   <a href="../pages/product.html?id=${response.id}">
