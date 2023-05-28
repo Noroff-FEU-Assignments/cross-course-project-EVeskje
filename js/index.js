@@ -26,6 +26,8 @@ async function fetchPoster () {
  <p class="movie-price">${response.price}$</p>
  </a>
   `;
+  const changeTitle = document.getElementsByClassName("newtitle").innerText;
+  document.title = `${product.title}`;
   
 }
 fetchPoster()
