@@ -16,12 +16,12 @@ async function getProduct(){
   <div class="product-wrapper">
   <div class="product-card">
    <div class="product-card-image">
-   <img src="${movie.image}" alt="Cover image of the movie" />
+   <img src="${movie.image}" class="filmcover-product" alt="Cover image of the movie" />
    </div>
    <div class="product-card-content">
     <div class="product-content-container">
      <h1 class="film-title-product-desktop">${movie.title}</h1>
-     <p class="film-category">${movie.genre} | ${movie.released}| ${movie.rating} | 15 år | 4k</p>
+     <p class="film-category">${movie.genre} | ${movie.released} | Rating: ${movie.rating} | 4k</p>
      <p>
       ${movie.description}
      </p>
