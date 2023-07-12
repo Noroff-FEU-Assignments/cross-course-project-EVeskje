@@ -100,7 +100,7 @@ nav {
 
 .nav-island {
  position: fixed;
- bottom: 20px;
+ /* bottom: 20px; */
  display: flex;
  align-self: center;
  max-width: 500px;
@@ -306,6 +306,12 @@ section.discover p:hover {
  }
 }
 
+@media only screen and (max-width: 585px) {
+ .nav-island {
+  bottom: 20px;
+ }
+}
+
 /* FOOTER */
 
 footer {
@@ -439,7 +445,7 @@ section.continue-watching h1 {
  flex-direction: column;
  gap: 15px;
  padding: 10px;
- align-items: flex-start;
+ /* align-items: flex-start; */
 }
 
 .filmcover-product {
@@ -529,11 +535,94 @@ section.continue-watching h1 {
  max-width: 70%;
  height: auto;
  border-radius: 15px;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 @media (max-width: 600px) {
  .container {
   flex-direction: column;
+ }
+}
+
+/* Contact page */
+
+.contact-wrapper {
+ display: flex;
+ flex-wrap: wrap;
+ padding: 20px;
+}
+
+.map {
+ /* flex: 1 1 50%; */
+ height: 500px;
+ margin-left: 20px;
+}
+
+.form {
+ flex: 1 1 50%;
+ padding: 20px;
+ background-color: var(--primary-color);
+ height: 500px;
+ margin-bottom: 20px;
+ border-radius: 15px;
+}
+
+.form h1 {
+ font-size: 24px;
+ margin-bottom: 20px;
+}
+
+.form-group {
+ margin-bottom: 20px;
+}
+
+.form-group label {
+ display: block;
+ margin-bottom: 5px;
+ font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+ width: 100%;
+ padding: 10px;
+ border: none;
+ border-radius: 4px;
+ background-color: #f7f7f7;
+ box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.form-group textarea {
+ height: 150px;
+}
+
+.form-group button {
+ padding: 10px 20px;
+ background-color: var(--bg-color);
+ color: white;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+ background-color: var(--bg-color-transparent);
+}
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+ .container {
+  flex-direction: column;
+ }
+
+ .map {
+  display: none;
+ }
+
+ .form {
+  flex-basis: 100%;
  }
 }
 
@@ -596,7 +685,7 @@ section.continue-watching h1 {
 }
 
 /* SMALL */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
  .product-card {
   background-color: transparent;
   margin-top: 164px;
