@@ -504,7 +504,7 @@ section.continue-watching h1 {
  flex: 1 1 300px;
  padding: 20px;
  background-color: #141414;
- margin-left: 20px;
+ margin: 20px;
  border-radius: 15px;
  display: grid;
  place-items: center;
