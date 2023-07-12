@@ -32,47 +32,64 @@
    })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
   </script>
 
-  <title>SquareEyes | Home</title>
+  <title>SquareEyes | About Us</title>
  </head>
  <body>
-  <header>
-   <nav>
-    <div class="top-nav">
-     <div class="logo" onclick="window.location.href = '../index.html';">
-      <img src="../assets/logo.png" alt="logo" />
-     </div>
-     <div class="search">
-      <input type="text" placeholder="What do you want to watch?" />
-     </div>
-     <div class="actions">
-      <a href="../index.html"><i class="fa thin fa-house"></i></a>
-      <a href="checkout.html"><i class="fa thin fa-cart-shopping"></i></a>
-      <a href="login.html"><i class="fa thin fa-user"></i></a>
-     </div>
-    </div>
+  <div class="container">
+   <header>
+    <nav>
+     <div class="top-nav">
+      <div class="logo" onclick="window.location.href = '../index.html';">
+       <img src="../assets/logo.png" alt="logo" />
+      </div>
 
-    <div class="nav-island">
+      <div class="search">
+       <input type="text" placeholder="What do you want to watch?" />
+      </div>
+      <div class="actions">
+       <a href="../index.html"><i class="fa thin fa-house"></i></a>
+       <!-- <a href="checkout.html"><i class="fa thin fa-cart-shopping"></i></a>
+         <a href="login.html"><i class="fa thin fa-user"></i></a> -->
+      </div>
+     </div>
+     <div class="nav-island">
+      <ul>
+       <li><a href="../index.html">Home</a></li>
+       <li><a href="./top10.html">Top 10</a></li>
+       <li class="active"><a href="./discover.html">Discover</a></li>
+      </ul>
+     </div>
+    </nav>
+   </header>
+
+   <main>
+    <body>
+        <div class="about-wrapper">
+          <div class="about-text">
+            <h1>About us</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at dapibus risus. Suspendisse pharetra nunc libero, sed tempor massa volutpat sit amet. Donec aliquam feugiat lectus nec iaculis. Quisque id purus ac urna tincidunt auctor. Morbi a aliquet lacus, vitae scelerisque nunc.</p>
+            <p>Mauris venenatis, est ut posuere pellentesque, nibh ipsum tristique nulla, eu auctor ex est sed nulla. Nulla facilisi. Curabitur finibus semper iaculis. Donec nec malesuada neque. Nullam malesuada, justo id tempus placerat, urna felis sollicitudin elit, vel aliquet metus risus a lorem. Vestibulum efficitur sem lectus, ut laoreet urna varius eget. Mauris faucibus sem a lacus dignissim tristique. Aliquam erat volutpat.</p>
+          </div>
+          <div class="about-image">
+            <img src="/assets/movie-pictures/1651513913720 2.jpeg" alt="Profile Picture">
+          </div>
+        </div>
+      </body>
+   </main>
+
+   <footer class="footer">
+    <div class="center-footer">
+     <h2>Square Eyes</h2>
+     <p>&copy; 2023 Square Eyes</p>
+    </div>
+    <div class="right-footer">
+     <p><i class="fa-solid fa-popcorn"></i>Let's watch movies together!</p>
      <ul>
-      <li class="active"><a href="../index.html">Home</a></li>
-      <li><a href="../pages/top10.html">Top 10</a></li>
-      <li><a href="../pages/discover.html">Discover</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./contact.html">Contact us</a></li>
      </ul>
     </div>
-   </nav>
-  </header>
-  <main></main>
-  <footer class="footer">
-   <div class="center-footer">
-    <h2>Square Eyes</h2>
-    <p>&copy; 2023 Square Eyes</p>
-   </div>
-   <div class="right-footer">
-    <p><i class="fa-solid fa-popcorn"></i>Let's watch movies together!</p>
-    <ul>
-     <li><a href="./about.html">About</a></li>
-     <li><a href="./contact.html">Contact us</a></li>
-    </ul>
-   </div>
-  </footer>
+   </footer>
+  </div>
  </body>
 </html>
