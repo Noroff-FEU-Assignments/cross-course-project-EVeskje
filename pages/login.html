@@ -62,16 +62,40 @@
   </header>
 
   <main>
-   <div class="signedin-wrapper">
-    <h1 class="signedin-text">
-     You are now signed in. Let's watch movies together!
-    </h1>
-    <a href="./discover.html" class="cta">Go explore!</a>
-    <img
-     src="../assets/SquareLogo.png"
-     alt="Square Eyes Logo"
-     class="assorted-filmcovers" />
-   </div>
+    <div class="login-wrapper">
+      <div class="form-wrapper">
+        <h1>Welcome!</h1>
+        <h2>Login into your account</h2>
+        <form>
+          <div class="form-group">
+            <label for="email">
+              <i class="fas fa-envelope"></i>
+              Email:
+            </label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="password">
+              <i class="fas fa-lock"></i>
+              Password:
+            </label>
+            <input type="password" id="password" name="password" required>
+          </div>
+          <div class="form-group">
+            <button type="submit">Login Now</button>
+          </div>
+        </form>
+        <div class="or-divider">
+          <span class="divider-line"></span>
+          <span class="divider-text">or</span>
+          <span class="divider-line"></span>
+        </div>
+        <div class="signup-wrapper">
+          <p>Don't have an account?</p>
+          <button class="signup-button">Sign Up Now</button>
+        </div>
+      </div>
+    </div>
   </main>
 
   <footer class="footer">
