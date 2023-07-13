@@ -2,11 +2,12 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8" />
-  <meta name="description" content="Buy high quality movies on SquareEyes" />
+  <meta name="desciption" content="Buy high quality movies on SquareEyes" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../css/styles.css" />
+
   <script
-   src="https://kit.fontawesome.com/9ce311e81f.js"
+   src="https://kit.fontawesome.com/a2e18a1d66.js"
    crossorigin="anonymous"></script>
 
   <!-- Favicon -->
@@ -32,84 +33,87 @@
    })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
   </script>
 
-  <title>SquareEyes | Home</title>
+  <title>SquareEyes | Login</title>
  </head>
+
  <body>
-  <header>
-   <nav>
-    <div class="top-nav">
-     <div class="logo" onclick="window.location.href = '../index.html';">
-      <img src="../assets/logo.png" alt="logo" />
+  <div class="container">
+   <header>
+    <nav>
+     <div class="top-nav">
+      <div class="logo" onclick="window.location.href = '../index.html';">
+       <img src="../assets/logo.png" alt="logo" />
+      </div>
+
+      <div class="search">
+       <input type="text" placeholder="What do you want to watch?" />
+      </div>
+      <div class="actions">
+       <a href="../index.html"><i class="fa thin fa-house"></i></a>
+       <a href="checkout.html"><i class="fa thin fa-cart-shopping"></i></a>
+       <a href="login.html"><i class="fa thin fa-user"></i></a>
+      </div>
      </div>
-     <div class="search">
-      <input type="text" placeholder="What do you want to watch?" />
+     <div class="nav-island">
+      <ul>
+       <li><a href="../index.html">Home</a></li>
+       <li><a href="./top10.html">Top 10</a></li>
+       <li class="active"><a href="./discover.html">Discover</a></li>
+      </ul>
      </div>
-     <div class="actions">
-      <a href="../index.html"><i class="fa thin fa-house"></i></a>
-      <a href="checkout.html"><i class="fa thin fa-cart-shopping"></i></a>
-      <a href="login.html"><i class="fa thin fa-user"></i></a>
+    </nav>
+   </header>
+
+   <main>
+    <div class="login-wrapper">
+     <div class="form-wrapper">
+      <h1>Welcome!</h1>
+      <h2>Login into your account</h2>
+      <form>
+       <div class="form-group">
+        <label for="email">
+         <i class="fas fa-envelope"></i>
+         Email:
+        </label>
+        <input type="email" id="email" name="email" required />
+       </div>
+       <div class="form-group">
+        <label for="password">
+         <i class="fas fa-lock"></i>
+         Password:
+        </label>
+        <input type="password" id="password" name="password" required />
+       </div>
+       <div class="form-group">
+        <button type="submit">Login Now</button>
+       </div>
+      </form>
+      <div class="or-divider">
+       <span class="divider-line"></span>
+       <span class="divider-text">or</span>
+       <span class="divider-line"></span>
+      </div>
+      <div class="signup-wrapper">
+       <p>Don't have an account?</p>
+       <button class="signup-button">Sign Up Now</button>
+      </div>
      </div>
     </div>
+   </main>
 
-    <div class="nav-island">
+   <footer class="footer">
+    <div class="center-footer">
+     <h2>Square Eyes</h2>
+     <p>&copy; 2023 Square Eyes</p>
+    </div>
+    <div class="right-footer">
+     <p><i class="fa-solid fa-popcorn"></i>Let's watch movies together!</p>
      <ul>
-      <li class="active"><a href="../index.html">Home</a></li>
-      <li><a href="../pages/top10.html">Top 10</a></li>
-      <li><a href="../pages/discover.html">Discover</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./contact.html">Contact us</a></li>
      </ul>
     </div>
-   </nav>
-  </header>
-
-  <main>
-    <div class="login-wrapper">
-      <div class="form-wrapper">
-        <h1>Welcome!</h1>
-        <h2>Login into your account</h2>
-        <form>
-          <div class="form-group">
-            <label for="email">
-              <i class="fas fa-envelope"></i>
-              Email:
-            </label>
-            <input type="email" id="email" name="email" required>
-          </div>
-          <div class="form-group">
-            <label for="password">
-              <i class="fas fa-lock"></i>
-              Password:
-            </label>
-            <input type="password" id="password" name="password" required>
-          </div>
-          <div class="form-group">
-            <button type="submit">Login Now</button>
-          </div>
-        </form>
-        <div class="or-divider">
-          <span class="divider-line"></span>
-          <span class="divider-text">or</span>
-          <span class="divider-line"></span>
-        </div>
-        <div class="signup-wrapper">
-          <p>Don't have an account?</p>
-          <button class="signup-button">Sign Up Now</button>
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <footer class="footer">
-   <div class="center-footer">
-    <h2>Square Eyes</h2>
-    <p>&copy; 2023 Square Eyes</p>
-   </div>
-   <div class="right-footer">
-    <p><i class="fa-solid fa-popcorn"></i>Let's watch movies together!</p>
-    <ul>
-     <li><a href="./about.html">About</a></li>
-     <li><a href="./contact.html">Contact us</a></li>
-    </ul>
-   </div>
-  </footer>
+   </footer>
+  </div>
  </body>
 </html>
