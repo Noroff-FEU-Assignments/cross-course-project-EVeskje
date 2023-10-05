@@ -6,7 +6,7 @@ import { createMessage } from "./errorMessage.js";
 const favContainer = document.querySelector(".continue-watching__movies");
 const discoverContainer = document.querySelector(".discover .continue-watching__movies");
 const poster = document.querySelector(".movie-front")
-const posterGif = document.querySelector(".movie-gif-10")
+// const posterGif = document.querySelector(".movie-gif-10")
 const apiUrl = `${baseApiUrl}${endpointApiUrl}`;
 
 async function fetchPoster () {
@@ -34,28 +34,28 @@ async function fetchPoster () {
 }
 fetchPoster()
 
-async function fetchPosterGif () {
-  const response = await getData("https://api.noroff.dev/api/v1/square-eyes/4696b9e6-ec6e-4672-a08d-3e3212a215c8");
+// async function fetchPosterGif () {
+//   const response = await getData("https://api.noroff.dev/api/v1/square-eyes/4696b9e6-ec6e-4672-a08d-3e3212a215c8");
 
-  posterGif.innerHTML = `
-  <a href="../pages/product.html?id=${response.id}">
-  <section class="new-release">
-  <div>
-   <img
-    class="movie-poster"
-    src="../assets/movie-pictures/giphy.gif"
-    alt="godzilla" />
-   <div class="movie-info-gif">
-    <p>${response.title}</p>
-    <p>${movie.genre} | ${movie.released} | Rating: ${movie.rating}</p>
-   </div>
-  </div>
- </section>
- </a>
-  `;
-}
-fetchPosterGif()
-console.log(posterGif);
+//   posterGif.innerHTML = `
+//   <a href="../pages/product.html?id=${response.id}">
+//   <section class="new-release">
+//   <div>
+//    <img
+//     class="movie-poster"
+//     src="../assets/movie-pictures/giphy.gif"
+//     alt="godzilla" />
+//    <div class="movie-info-gif">
+//     <p>${response.title}</p>
+//     <p>${movie.genre} | ${movie.released} | Rating: ${movie.rating}</p>
+//    </div>
+//   </div>
+//  </section>
+//  </a>
+//   `;
+// }
+// fetchPosterGif()
+// console.log(posterGif);
 
 
 async function fetchData() {
